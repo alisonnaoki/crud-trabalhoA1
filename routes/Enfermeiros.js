@@ -7,7 +7,7 @@ id: 1,
 nome: "Carlos Pereira",
 coren: "654321",
 email: "carlos.pereira@hospital.com",
-telefone: "11 97777-6655"
+telefone: "61 97777-6655"
 }
 ]
 

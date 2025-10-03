@@ -17,19 +17,10 @@ index.js
 
 5-Fazer configuração inicial do index.js
 
-
-
-
-
-
-const Medicos = require('./routes/Medicos')
-app.use(Medicos)
-
-const Medicamentos = require('./routes/Medicamentos')
-app.use(Medicamentos)
-
-const Enfermeiros = require('./routes/Enfermeiros')
-app.use(Enfermeiros)
-
-const Consultas = require('./routes/Consultas')
-app.use(Consultas)
+6-Criação dos CRUDS
+routes/
+    Consultas.js
+    Enfermeiros.js
+    Medicamentos.js
+    Medicos.js
+    Pacientes.js
