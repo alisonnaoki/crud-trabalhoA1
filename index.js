@@ -18,6 +18,8 @@ app.use(Pacientes)
 
 const Medicos = require('./routes/Medicos')
 
+const Enfermeiros = require('./routes/Enfermeiros')
+
 
 app.listen(3000, () => {
   console.log("Api rodando em http://localhost:3000")
