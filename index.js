@@ -17,8 +17,10 @@ const Pacientes = require('./routes/Pacientes')
 app.use(Pacientes)
 
 const Medicos = require('./routes/Medicos')
+app.use(Medicos)
 
 const Enfermeiros = require('./routes/Enfermeiros')
+app.use(Enfermeiros)
 
 
 app.listen(3000, () => {
